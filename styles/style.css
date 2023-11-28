@@ -16,3 +16,17 @@ body {
 .chairdiv {
     background-color: blanchedalmond;
 }
+
+.chairmodel {
+    width: 620px;
+}
+
+.Hotspot {
+    background-color: #ffffff;
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    border: solid rgb(57, 57, 57) 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
