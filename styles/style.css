@@ -13,17 +13,32 @@ body {
     width: 100vw;
 } 
 
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+p {
+    font-size: 25px;
+    font-family: 300;
+}
+
 .chairdiv {
-    background-color: blanchedalmond;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: solid black 1px;
 }
 
 .chairmodel {
     width: 700px;
     height: 700px;
     border: solid black 1px;
+    border-radius: 30px;
 }
 
 .Hotspot {
