@@ -15,11 +15,15 @@
         <h2>chair1</h2>
         <p>description</p>
         <model-viewer src="./models/chair1.glb"
-              alt="A 3D model of an astronaut"
-              ar
+              alt="A 3D model of a chair"
+              ar ar-modes="webxr scene-viewer quick-look"
               auto-rotate
               camera-controls
+              shadow-intensity="1.3"
               poster="./image/poster1.png">
+              <button class="Hotspot" slot="hotspot-1" data-position="0.16715653971969036m 0.7803913019253066m -0.21842339046894374m" data-normal="-0.2006674500067874m 0.42347170297172987m 0.8834049418528269m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">select material</div>
+            </button>
         </model-viewer>
     </div>
 
@@ -27,8 +31,8 @@
         <h2>chair1</h2>
         <p>description</p>
         <model-viewer src="./models/chair2.glb"
-              alt="A 3D model of an astronaut"
-              ar
+              alt="A 3D model of a chair"
+              ar 
               auto-rotate
               camera-controls>
         </model-viewer>
@@ -48,3 +52,19 @@
 
 </body>
 </html>
+
+
+<model-viewer src="chair1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1.39" exposure="1" shadow-softness="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.16715653971969036m 0.7803913019253066m -0.21842339046894374m" data-normal="-0.2006674500067874m 0.42347170297172987m 0.8834049418528269m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">select material</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
