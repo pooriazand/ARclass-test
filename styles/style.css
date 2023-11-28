@@ -2,11 +2,17 @@
 
 body {
     font-family: raleway, Arial, Helvetica, sans-serif;
-    background-color: beige;
+    background-color: rgb(228, 228, 228);
     margin: 0;
     padding: 0;
+    align-items: center;
+    text-align: center;
 }
 
 #hero-image {
     width: 100vw;
 } 
+
+.chairdiv {
+    background-color: blanchedalmond;
+}
